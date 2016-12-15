@@ -1,0 +1,61 @@
+/* standart lines */
+* {
+  box-sizing: border-box;
+}
+.clr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+/* valid code */
+div {
+  background-color: steelblue;
+}
+.holder {
+  width: 1173px;
+  background-color: lightcyan;
+  margin: 0 auto;
+}
+.holder div {
+  margin-bottom: 20px;
+}
+.contacts {
+  height: 20px;
+}
+.menu {
+  height: 40px;
+}
+.slider-holder {
+  background-color: #ffe8b9;
+}
+.slider-holder .slider {
+  width: 729px;
+  height: 300px;
+  float: left;
+}
+.slider-holder .news {
+  width: 423px;
+  height: 140px;
+  float: right;
+}
+.benefits-holder {
+  background: none;
+  margin-left: -20px;
+  font-size: 0;
+}
+.benefits-holder .benefit {
+  width: 278px;
+  height: 100px;
+  margin-left: 20px;
+  display: inline-block;
+  background-color: yellowgreen;
+  font-size: 14px;
+}
